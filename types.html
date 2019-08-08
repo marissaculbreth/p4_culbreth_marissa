@@ -11,72 +11,76 @@
 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sacramento&display=swap" rel="stylesheet">
 
+		<link rel="stylesheet" href="animate.css">
 
 		<link href="lightbox/src/css/lightbox.css" rel="stylesheet" />
 
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
 		<!--[if lt IE 9]>
 			<script src="scripts/html5shiv-printshiv.min.js"></script>
 		<![endif]-->
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
 	</head>
 
   <body>
 		<header>
-      <section class="top">
-        <div class="logo" >
-          <img src="images/jellyfish.png" alt="jellyfish" title="jellyfish logo" />
-        </div>
-        <div class="head">
-          <h1>Jellyfish</h1>
-        </div>
-      </section>
-			<button class="hamburger">&#9776;</button>
-			<button class="cross">&#735;</button>
-			<nav>
-				<ul class="menu">
-					<li class><a href="index.html">HOME</a></li>
-					<li class><a href="types.html">TYPES</a></li>
-					<li class><a href="facts.html">ENCOUNTERS</a></li>
-					<li class><a href="images.html">INTERACTIONS</a></li>
+			<div class="header">
+	      <section class="top">
+	        <div class="logo" >
+	          <img src="images/jellyfish.png" alt="jellyfish" title="jellyfish logo" />
+	        </div>
+	        <div class="head">
+	          <h1>Jellyfish</h1>
+	        </div>
+	      </section>
+				<button class="hamburger">&#9776;</button>
+				<button class="cross">&#735;</button>
+				<nav>
+					<ul class="menu">
+						<li><a href="index.html">HOME</a></li>
+						<li><a href="types.html">TYPES</a></li>
+						<li><a href="facts.html">ENCOUNTERS</a></li>
+						<li><a href="interactions.html">INTERACTIONS</a></li>
+					</ul>
+				</nav>
+				<nav>
+					<ul class="desktop-menu">
+	          <li><a href="index.html">HOME</a></li>
+						<li><a href="types.html">TYPES</a></li>
+						<li><a href="facts.html">ENCOUNTERS</a></li>
+						<li><a href="interactions.html">INTERACTIONS</a></li>
 				</ul>
-			</nav>
-			<nav>
-				<ul class="desktop-menu">
-          <li class><a href="index.html">HOME</a></li>
-					<li class><a href="types.html">TYPES</a></li>
-					<li class><a href="facts.html">ENCOUNTERS</a></li>
-					<li class><a href="images.html">INTERACTIONS</a></li>
-			</ul>
-			</nav>
+				</nav>
+			</div>
 		</header>
 
 		<main>
 
-    	<h2>Types of Jellyfish</h2>
+    	<h2 class="animated slideInDown">Types of Jellyfish</h2>
+			<p class="types">For a full list of classes and species, visit this <a href="https://animalsake.com/types-of-jellyfish">website.</a>
 
 			<section class="gallery">
 
-				<a href="images/image11.jpg" data-lightbox="image-1" data-title="Moon Jellyfish: This is the most common species in the world and can be identified by the four horseshoe-shaped gonads that can be seen through the top of the bell. The size ranges between 6 and 20 inches. They mainly feed on plankton and rely on currents for drifting as they have limited locomotion."><img src="images/image11.jpg" alt="moon jellyfish" title="moon jellyfish" /></a>
+				<a  href="images/image11.jpg" data-lightbox="image-1" data-title="Moon Jellyfish: This is the most common species in the world and can be identified by the four horseshoe-shaped gonads that can be seen through the top of the bell. The size ranges between 6 and 20 inches. They mainly feed on plankton and rely on currents for drifting as they have limited locomotion."><img class="animated zoomIn" src="images/image11.jpg" alt="moon jellyfish" title="moon jellyfish" /></a>
 
-				<a href="images/image12.jpg" data-lightbox="image-1" data-title="Cannonball Jellyfish: The name is derived from its resemblance to a cannonball. This type of jellyfish can be easily identified as they have white bells at the bottom that are surrounded by a ring of purple or brown pigment. Its size ranges between 8-10 inches. They mainly feed zooplankton. Another common name given to the species is Cabbage Head Jellyfish."><img src="images/image12.jpg" alt="cannonball jellyfish" title="cannonball jellyfish" /></a>
+				<a href="images/image12.jpg" data-lightbox="image-1" data-title="Cannonball Jellyfish: The name is derived from its resemblance to a cannonball. This type of jellyfish can be easily identified as they have white bells at the bottom that are surrounded by a ring of purple or brown pigment. Its size ranges between 8-10 inches. They mainly feed zooplankton. Another common name given to the species is Cabbage Head Jellyfish."><img class="animated zoomIn" src="images/image12.jpg" alt="cannonball jellyfish" title="cannonball jellyfish" /></a>
 
-				<a href="images/image13.jpg" data-lightbox="image-1" data-title="Lion's Mane: Lion's mane jellyfish is the largest known species of jellyfish. They are distinguished by a saucer-like shape on the top and tentacles hanging below as thick as a lion's mane. Found in the freezing waters of the Arctic ocean and the Northern Pacific Ocean, they are known to survive in the coldest weather conditions. The largest recorded specimen was about 8 feet in diameter and about 150 feet long. Even though their stings are not known to be fatal, it can lead to temporary pain and redness in the area of contact."><img src="images/image13.jpg" alt="lions mane" title="lions mane" /></a>
+				<a href="images/image13.jpg" data-lightbox="image-1" data-title="Lion's Mane: Lion's mane jellyfish is the largest known species of jellyfish. They are distinguished by a saucer-like shape on the top and tentacles hanging below as thick as a lion's mane. Found in the freezing waters of the Arctic ocean and the Northern Pacific Ocean, they are known to survive in the coldest weather conditions. The largest recorded specimen was about 8 feet in diameter and about 150 feet long. Even though their stings are not known to be fatal, it can lead to temporary pain and redness in the area of contact."><img class="animated zoomIn" src="images/image13.jpg" alt="lions mane" title="lions mane" /></a>
 
-				<a href="images/image14.jpg" data-lightbox="image-1" data-title="Atlantic Sea Nettle: These jellyfish are found in tropical and subtropical parts of the Atlantic and Indo-Pacific oceans. The body size varies from 6-8 inches and tentacles may grow up to 6 feet long, they are smaller than the Pacific sea nettle species. Atlantic sea nettle is distinguished by the reddish-brown stripes that run along the head. The sting is not lethal but leaves a painful rash."><img src="images/image14.jpg" alt="atlantic sea nettle" title="atlantic sea nettle" /></a>
+				<a href="images/image14.jpg" data-lightbox="image-1" data-title="Atlantic Sea Nettle: These jellyfish are found in tropical and subtropical parts of the Atlantic and Indo-Pacific oceans. The body size varies from 6-8 inches and tentacles may grow up to 6 feet long, they are smaller than the Pacific sea nettle species. Atlantic sea nettle is distinguished by the reddish-brown stripes that run along the head. The sting is not lethal but leaves a painful rash."><img class="animated zoomIn" src="images/image14.jpg" alt="atlantic sea nettle" title="atlantic sea nettle" /></a>
 
-				<a href="images/image15.jpg" data-lightbox="image-1" data-title="Jelly Blubber: Also known as Blue Blubber jellyfish, this species of jellyfish are distinguished by their large bells and translucent oral arms which range from 4 to 8 in number. They use these arms to capture and ingest their food. Blue Blubber stuns its prey using the venomous tentacles. However, this sting is not fatal to humans. It may cause minor rash or itchiness in the area of contact."><img src="images/image15.jpg" alt="jelly blubber" title="jelly blubber" /></a>
+				<a href="images/image15.jpg" data-lightbox="image-1" data-title="Jelly Blubber: Also known as Blue Blubber jellyfish, this species of jellyfish are distinguished by their large bells and translucent oral arms which range from 4 to 8 in number. They use these arms to capture and ingest their food. Blue Blubber stuns its prey using the venomous tentacles. However, this sting is not fatal to humans. It may cause minor rash or itchiness in the area of contact."><img class="animated zoomIn" src="images/image15.jpg" alt="jelly blubber" title="jelly blubber" /></a>
 
-				<a href="images/image17.jpg" data-lightbox="image-1" data-title="Mauve Stinger: This species of jellyfish has an ability to glow in the dark. In Latin, nocti  means night and luca stands for light. Roughly the size of a golf ball, these are known to survive in warm and temperate waters of Mediterranean Sea, Red Sea and Atlantic Ocean. Their stings are slightly painful, but is limited to only a small period of time and does not cause much harm."><img src="images/image17.jpg" alt="mauve stinger" title="mauve stinger" /></a>
-
-
-				<a href="images/image18.jpg" data-lightbox="image-1" data-title="Blue Jellyfish: Also known as Bluefire jellyfish, these have a blue or yellow color tone and grow to approximately 10 to 20 cm in length. They are mainly found off the west coast of Scotland, the North Sea and the Irish Sea."><img src="images/image18.jpg" alt="blue jellyfish" title="blue jellyfish" /></a>
+				<a href="images/image17.jpg" data-lightbox="image-1" data-title="Mauve Stinger: This species of jellyfish has an ability to glow in the dark. In Latin, nocti  means night and luca stands for light. Roughly the size of a golf ball, these are known to survive in warm and temperate waters of Mediterranean Sea, Red Sea and Atlantic Ocean. Their stings are slightly painful, but is limited to only a small period of time and does not cause much harm."><img class="animated zoomIn" src="images/image17.jpg" alt="mauve stinger" title="mauve stinger" /></a>
 
 
-				<a href="images/image19.jpg" data-lightbox="image-1" data-title="Irukandj jellyfish: Irukandji Jellyfish is extremely tiny and extremely venomous species of jellyfish. If left untreated, the sting can lead to cardiac arrest. The bell of this species grows only up to 5 to 10 millimeters and tentacles are a few centimeters to 1 meter in length. They are usually found in warmer waters near the coast."><img src="images/image19.jpg" alt="Irukandj jellyfish" title="Irukandj jellyfish" /></a>
+				<a href="images/image18.jpg" data-lightbox="image-1" data-title="Blue Jellyfish: Also known as Bluefire jellyfish, these have a blue or yellow color tone and grow to approximately 10 to 20 cm in length. They are mainly found off the west coast of Scotland, the North Sea and the Irish Sea."><img class="animated zoomIn" src="images/image18.jpg" alt="blue jellyfish" title="blue jellyfish" /></a>
+
+
+				<a href="images/image19.jpg" data-lightbox="image-1" data-title="Irukandj jellyfish: Irukandji Jellyfish is extremely tiny and extremely venomous species of jellyfish. If left untreated, the sting can lead to cardiac arrest. The bell of this species grows only up to 5 to 10 millimeters and tentacles are a few centimeters to 1 meter in length. They are usually found in warmer waters near the coast."><img class="animated zoomIn" src="images/image19.jpg" alt="Irukandj jellyfish" title="Irukandj jellyfish" /></a>
 
 
 			</section>
@@ -92,6 +96,8 @@
     	<script src="main.js"></script>
       <script src="hamburger.js"></script>
 			<script src="lightbox/src/js/lightbox.js"></script>
+			<a id="back2Top" title="Back to top" href="#">&#10148;</a>
+
 
 
 
